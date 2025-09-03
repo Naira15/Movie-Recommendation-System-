@@ -26,16 +26,9 @@ The system uses the **MovieLens 100K Dataset**, a classic dataset for building a
 To run this project, you will need to have Python and Jupyter Notebook installed.
 
 1.  **Clone the Repository**: Download the project files to your local machine.
-2.  **Install Dependencies**: Make sure you have the necessary libraries installed. You can do this by running the following command in your terminal:
-    ```bash
-    pip install pandas numpy scikit-learn
-    ```
-3.  **Download the Dataset**: Download the MovieLens 100K dataset and place the `u.data` and `u.item` files in the same directory as the notebook.
-4.  **Launch Jupyter Notebook**: Open the notebook and run the cells in sequence. The notebook will guide you through the process of building the recommendation system.
-    ```bash
-    jupyter notebook "Movie Recommendation System .ipynb"
-    ```
+2. **Download the Dataset:** Download the **MovieLens 100K dataset** from [this link](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset) and place the `u.data` and `u.item` files in the same directory as the notebook.
 
+3.  **Launch Jupyter Notebook**: Open the notebook and run the cells in sequence. 
 ---
 
 ### 📊 **Evaluation Results**
@@ -47,4 +40,5 @@ The project compares the performance of the user-based and item-based collaborat
     * Mean Precision@10: 0.21
 * **Item-based CF**:
     * Mean Precision@5: 0.26
+
     * Mean Precision@10: 0.28
